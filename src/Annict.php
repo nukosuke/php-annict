@@ -22,7 +22,7 @@ class Annict
         'User-Agent'    => 'php-annict',
         'Content-Type'  => 'application/json',
         'Accept'        => 'application/json',
-        'Authorization' => $access_token,
+        'Authorization' => "Bearer $access_token",
       ],
     ]);
 
