@@ -1,7 +1,13 @@
 {
     "name": "nukosuke/annict",
     "description": "Annict API interface",
+    "version": "0.0.0",
     "type": "library",
+    "keywords": [
+      "API",
+      "library"
+    ],
+    "homepage": "https://github.com/nukosuke/php-annict",
     "require-dev": {
         "phpunit/phpunit": "^5.6"
     },
@@ -12,6 +18,9 @@
             "email": "nukosuke@shibuya.tech"
         }
     ],
+    "support": {
+      "issue": "https://github.com/nukosuke/php-annict/issues"
+    },
     "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "^6.2"
