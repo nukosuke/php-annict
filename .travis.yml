@@ -4,5 +4,5 @@ php:
   - '7.0'
   - hhvm
 before_script:
+  - phpenv config-rm xdebug.ini
   - composer install --no-interaction --dev
-
