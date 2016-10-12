@@ -9,10 +9,10 @@ use Annict\Records;
  */
 class Annict
 {
-  protected $http;
-  protected $works;
-  protected $episodes;
-  protected $records;
+  public $http;
+  public $works;
+  public $episodes;
+  public $records;
 
   function __construct($access_token)
   {
